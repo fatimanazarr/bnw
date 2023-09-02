@@ -1,0 +1,182 @@
+/* Media query for screens with max-width: 420px */
+@media (max-width: 913px) {
+    nav .navbar ul {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    nav .navbar ul.show {
+      display: flex;
+    }
+  
+    nav .navbar ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    nav .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    nav .menu-icon .bar {
+      width: 25px;
+      height: 3px;
+      background-color: black;
+      margin: 5px 0;
+      transition: background-color 0.3s ease-in-out;
+    }
+  
+    nav .menu-icon.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    nav .menu-icon.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    nav .menu-icon.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /*BANNER1 SECTION */
+    .intro-section {
+        padding: 50px 0; /* Adjust the padding as needed */
+        height: auto;
+      }
+    
+      .intro-heading {
+        font-size: 36px; /* Adjust the font size as needed */
+        margin-bottom: 5px; /* Adjust the margin as needed */
+      }
+    
+      .intro-subheading-box {
+        width: 100%;
+        max-width: 300px; /* Adjust the maximum width as needed */
+        margin-top: 20px; /* Adjust the margin as needed */
+      }
+    
+      .intro-subheading {
+        font-size: 16px; /* Adjust the font size as needed */
+      }
+    
+      .read-more-button {
+        font-size: 12px; /* Adjust the font size as needed */
+        padding: 8px 16px; /* Adjust the padding as needed */
+        margin-top: 20px; /* Adjust the margin as needed */
+      }
+    /*ABOUT SECTION */
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .about-image {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    
+      .about-image img {
+        max-width: 100%;
+        height: auto;
+    
+      }
+
+      /*End of About Section */
+
+      /*QUOTE SECTION*/
+      .quote-section {
+        height: 60vh;
+      }
+    
+      .quote-container {
+        padding: 0 20px;
+      }
+    
+      .quote-content {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .quote-sign {
+        font-size: 200px;
+        
+      }
+    
+      .quote-text {
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+      }
+    
+      .quote-content {
+        width: 100%;
+        max-width: 400px;
+      }
+
+      /*Banner2 section */
+      .Banner2-section {
+        justify-content: flex-start;
+        padding: 0 10px;
+        align-items: flex-start; /* Add this line */
+        
+    }
+    
+      .quote-container2 {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    
+      .quote {
+        font-size: 28px;
+        text-align: right;
+      }
+
+      /*end of banner2 section */
+
+      /* FOOTER SECTION */
+      .footer-section {
+        padding: 10px;
+        text-align: center;
+      }
+    
+      .footer-section h1 {
+        font-size: 48px; /* Adjust the font size as needed */
+        margin-bottom: 20px;
+      }
+    
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    
+      .footer-info {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .footer-image img {
+        height: auto;
+        max-width: 50%;
+        margin-top: 20px;
+      }
+      .footer-info h2,
+      .footer-info p {
+        width: 100%;
+      }
+    
+      
+  }

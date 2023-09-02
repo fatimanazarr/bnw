@@ -24,7 +24,7 @@
     margin: 0;
     padding: 0;
   }
-  
+ 
   nav .navbar {
     background-color: white;
     height: 60px;
@@ -145,7 +145,16 @@
     background-color: white;
     color: black;
   }
-
+  .knowtext
+  {
+    text-decoration: none;
+    color: white;
+  }
+  .buttonstext
+  {
+    text-decoration: none;
+    color: #333;
+  }
 /*End of Banner CSS */
 
 /*ABOUT ME CSS */
